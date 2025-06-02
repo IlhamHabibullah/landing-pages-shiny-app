@@ -1,6 +1,9 @@
 # Peta Prakiraan Daerah Penangkapan Ikan Nasional (PPDPI Nasional) - Ilham Habibullah
 
-Aplikasi ini adalah aplikasi web interaktif berbasis Python yang menggunakan pustaka `shiny` untuk menampilkan dan mengunduh peta serta tabel Prakiraan Daerah Penangkapan Ikan (DPI) dari server FTP berdasarkan area dan tanggal yang dipilih pengguna. Aplikasi ini dikembangkan untuk mendukung Kementerian Kelautan dan Perikanan Republik Indonesia dalam mendistribusikan data prakiraan kepada pengguna seperti nelayan dan peneliti.
+Aplikasi ini adalah aplikasi web interaktif berbasis Python yang menggunakan pustaka `shiny` untuk menampilkan dan mengunduh peta serta tabel Prakiraan Daerah Penangkapan Ikan (DPI) dari server FTP berdasarkan area dan tanggal yang dipilih pengguna. Aplikasi ini dikembangkan untuk mendukung Kementerian Kelautan dan Perikanan Republik Indonesia dalam mendistribusikan data prakiraan kepada pengguna seperti nelayan, peneliti, akademisi, masyarakat umum dll.
+### Run App
+- untuk R : shiny::runApp("di sesuaikan")
+- untuk Python : python disesuikan.py
 
 ## Tampilan Aplikasi
 ![Tampilan Aplikasi PPDPI Nasional](https://raw.githubusercontent.com/IlhamHabibullah/Landing-Pages-Shiny-App/main/tampilan-antar-muka.png)
