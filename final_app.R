@@ -17,7 +17,7 @@ downloadFromFTP <- function(area, selected_date) {
   ftp_url <- "isisendiri"
   username <- "isisendiri"
   password <- "isisendiri"
-  base_path <- "/sidik/dpi_oto/dpi_ops_peta/2025"
+  base_path <- "your_data"
   peta_filename <- paste0("peta_dpi_", area, "_", date_str, ".png")
   tabel_filename <- paste0("tabel_dpi_", area, "_", date_str, ".png")
   peta_path <- paste0(base_path, "/", peta_filename)
