@@ -18,7 +18,7 @@ def download_from_ftp(area, selected_date):
     ftp_url = os.getenv("FTP_URL", "isisendiri")
     username = os.getenv("FTP_USERNAME", "isisendiri")
     password = os.getenv("FTP_PASSWORD", "isisendiri")
-    base_path = "/sidik/dpi_oto/dpi_ops_peta/2025"
+    base_path = "your_data"
     peta_filename = f"peta_dpi_{area}_{date_str}.png"
     tabel_filename = f"tabel_dpi_{area}_{date_str}.png"
     peta_path = f"{base_path}/{peta_filename}"
